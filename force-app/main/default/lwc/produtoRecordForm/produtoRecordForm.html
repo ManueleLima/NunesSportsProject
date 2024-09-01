@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="Criar ou Editar Produto" icon-name="standard:product">
+        <lightning-record-form 
+            object-api-name="Produto__c"
+            record-id={recordId}
+            layout-type="Full"
+            mode={formMode}
+            onsubmit={handleSubmit}
+            onsuccess={handleSuccess}
+            onerror={handleError}>
+        </lightning-record-form>
+    </lightning-card>
+</template>
