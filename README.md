@@ -1,3 +1,5 @@
+#OI, Me Chamo Manuele Lima, e escolhi como Tecnologia utilizar uma Dev Org Salesforce, Sabendo que o DataBase do Salesforce se baseia na Criação dos seus objetos, o Database é Padrão.Criei o Objeto Costumizado Produto__c, que por sua vez, nativamente já contem o Crud, (ListView), Página de New Record, Edit Record e Exclude Record, Optei por criar como Front End uma Record Lightning Page com 2 Componentes LWC para Codificar a Visualização dos Registros, Tela Criação e Edição e Botão de Exclusão de Registros, também criei uma Classe de Controller para comunicação entre o LWC e o Back-end Apex, e 1 Trigger e 1 Handler para validação dos campos do Objeto.
+
 # Salesforce DX Project: Next Steps
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
